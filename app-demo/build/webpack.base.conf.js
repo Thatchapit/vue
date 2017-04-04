@@ -46,6 +46,10 @@ module.exports = {
         }
       },
       {
+        test: /\.json$/,
+        loader: 'json'
+      },
+      {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
         options: {
